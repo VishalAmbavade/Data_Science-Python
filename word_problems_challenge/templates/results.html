@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <title>
+            Spacy Results
+        </title>
+    </body>
+    <div>
+        <h2>Original Text</h2>
+        {{ rawtext }}
+    </div>
+
+    <div>
+        <h2>Result Text</h2>
+        {{ result|markdown }}
+    </div>
+
+    <div>
+        <h2>Figure</h2>
+        {{ result2 }}
+    </div>
+
+    <div>
+        <h2>Entities</h2>
+        {{ l }}
+    </div>
+
+    <div>
+        <h3>Entities length</h3>
+        {{ lengthOfEntities }}
+    </div>
+
+    <div>
+        <h3>Labels count</h3>
+        {{ labelCount }}
+    </div>
+
+    <div>
+        <h3>Item count</h3>
+        {{ itmesCount }}
+    </div>
+</html>
